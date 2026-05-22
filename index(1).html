@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alkaline Richlyn Investment</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0b0b0b;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:black;
+border-bottom:1px solid gold;
+position:sticky;
+top:0;
+}
+
+.logo{
+color:gold;
+font-size:28px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+transition:0.3s;
+}
+
+nav a:hover{
+color:gold;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+url('https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=1200&auto=format&fit=crop');
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+font-size:60px;
+color:gold;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:700px;
+font-size:20px;
+margin-bottom:30px;
+}
+
+.btn{
+padding:15px 35px;
+background:gold;
+color:black;
+font-weight:bold;
+text-decoration:none;
+border-radius:40px;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+.section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+color:gold;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#151515;
+padding:30px;
+border-radius:15px;
+border:1px solid #333;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+border-color:gold;
+}
+
+.card h3{
+color:gold;
+margin-bottom:15px;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+text-align:center;
+}
+
+.stat-box{
+background:#151515;
+padding:30px;
+border-radius:15px;
+}
+
+.stat-box h2{
+color:gold;
+font-size:40px;
+}
+
+.deposit{
+background:#151515;
+padding:40px;
+border-radius:15px;
+text-align:center;
+}
+
+.deposit h2{
+color:gold;
+margin-bottom:20px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+border-top:1px solid gold;
+margin-top:60px;
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:40px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Alkaline Richlyn</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#plans">Plans</a>
+<a href="#stats">Stats</a>
+<a href="login.html">Login</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Grow Your Wealth With Confidence</h1>
+<p>
+Join Alkaline Richlyn Investment Platform and enjoy smart investment opportunities with secure growth and modern fintech technology.
+</p>
+
+<a class="btn" href="login.html">Start Investing</a>
+</section>
+
+<section class="section" id="plans">
+<h2 class="section-title">Investment Plans</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Starter Plan</h3>
+<p>Deposit from GHS 100 and earn daily returns with secure investment growth.</p>
+</div>
+
+<div class="card">
+<h3>Gold Plan</h3>
+<p>Premium investment package with higher profits and faster withdrawals.</p>
+</div>
+
+<div class="card">
+<h3>VIP Plan</h3>
+<p>Exclusive package for advanced investors with maximum earning opportunities.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="stats">
+<h2 class="section-title">Platform Statistics</h2>
+
+<div class="stats">
+
+<div class="stat-box">
+<h2>10K+</h2>
+<p>Active Investors</p>
+</div>
+
+<div class="stat-box">
+<h2>GHS 5M+</h2>
+<p>Total Investments</p>
+</div>
+
+<div class="stat-box">
+<h2>98%</h2>
+<p>Success Rate</p>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="deposit">
+<h2>Deposit Information</h2>
+<p>MTN Mobile Money</p>
+<h3>0543552075</h3>
+<p>Account Name: Precious Nkrumah</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Alkaline Richlyn Investment. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
